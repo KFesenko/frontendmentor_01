@@ -1,0 +1,92 @@
+body {
+    background-color: #f2e9e2;
+}
+.box {
+    height: 450px;
+    margin: 0;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.card-main  {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 600;
+    height: 450;
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+    
+}
+
+#image{
+    background-image: url("img/image-product-desktop.jpg");
+    width: 300;
+    height: 450;
+    background-size: 300px 450px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: inline-block;
+    
+}
+
+#content {
+    position: relative;
+    display: block;
+    width: 300;
+    padding: 30px;
+}
+h1 {
+    font-family: Fraunces;
+    font-weight: bold;
+    
+}
+h2 {
+    margin-top: 0;
+}
+.item-description{
+    font-family: Montserrat;
+    
+}
+.price {
+    
+    display: inline-block;
+    font-family: Fraunces;
+    font-weight: bold;
+    font-size: 25px;
+    color: #3d8168;
+}
+.old-price{
+    padding-left: 20px;
+    display: inline-block;
+    text-decoration: line-through;
+    color: grey;
+}
+.button-position {
+    position: absolute;
+    left: 50%;
+    bottom: 5px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: table-cell;
+    align-items: center;
+}
+.button {
+    background-color: #3d8168;
+    border: none;
+    color: white;
+    width: 240px;
+    height: 50px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+
+    button:hover{
+    background-color: #1a4031;
+  }

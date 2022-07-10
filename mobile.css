@@ -1,0 +1,102 @@
+body {
+    background-color: #f2e9e2;
+}
+ .box {
+    height: 610px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card-main  {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 340;
+    height: 610;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+#image {
+    background-image: url("img/image-product-mobile.jpg");
+    width: 340;
+    height: 240;
+    background-size: 340px 240px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    
+}
+
+#content {
+    position: adsolute;
+    display: block;
+    width: 340px;
+    height: 370px;
+    padding: 30px;
+    
+}
+
+h1 {
+    font-family: Fraunces;
+    font-weight: bold;
+    line-height: 0.8;
+    margin-top: 0.5em;
+    
+}
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.item-description{
+    font-family: Montserrat;
+    
+}
+.price {
+    
+    display: inline-block;
+    font-family: Fraunces;
+    font-weight: bold;
+    font-size: 25px;
+    color: #3d8168;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.old-price{
+    padding-left: 20px;
+    display: inline-block;
+    text-decoration: line-through;
+    color: grey;
+}
+.button-position {
+    position: relative;
+    top: 15px;
+    /* left: 50%;
+    bottom: 5px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: table-cell;
+    align-items: center; */
+}
+.button {
+    background-color: #3d8168;
+    border: none;
+    color: white;
+    width: 280px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;    
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    
+}
+
+    button:hover{
+    background-color: #1a4031;
+  }
